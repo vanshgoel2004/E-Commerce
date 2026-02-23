@@ -44,6 +44,7 @@ project/
 │   └── middleware/   # Auth & Error handling
 ├── .gitignore
 └── README.md
+```
 
 
 ## ⚙️ Environment Variables
@@ -73,17 +74,18 @@ npm install
 cd ../client
 npm install
 
-## 2. Run Development Servers
+# 2. Run Development Servers
 You will need to run two terminals or use a package like concurrently.
 
-Terminal 1 (Backend):
+#Terminal 1 (Backend):
 
 $Bash
 cd server
 npm run dev
-Terminal 2 (Frontend):
+
+#Terminal 2 (Frontend):
 
 $Bash
 cd client
 npm run dev
-```
+
