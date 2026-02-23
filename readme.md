@@ -60,30 +60,30 @@ PAYPAL_CLIENT_ID=your_client_id
 
 ## 🛠️ Installation & Setup
 
-# 1. Clone & Install
+ 1. Clone & Install
 
-# Clone the repo
+ Clone the repo
 git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
 cd your-repo-name
 
-# Install Server dependencies
+ Install Server dependencies
 cd server
 npm install
 
-# Install Client dependencies
+ Install Client dependencies
 cd ../client
 npm install
 
-# 2. Run Development Servers
+ 2. Run Development Servers
 You will need to run two terminals or use a package like concurrently.
 
-#Terminal 1 (Backend):
+Terminal 1 (Backend):
 
 $Bash
 cd server
 npm run dev
 
-#Terminal 2 (Frontend):
+Terminal 2 (Frontend):
 
 $Bash
 cd client
